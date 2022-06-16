@@ -40,6 +40,25 @@ else{
     $grade="fail";
 }
 echo "Your score is" .$grade;
+//new
+
+function tax ($salary)
+
+{
+
+	$tax = $salary * 0.05;
+
+	$netSalary = $salary - $tax;
+
+	echo "Gross salary = $$salary";
+
+	echo "<br>Tax = $$tax"; 
+
+	echo "<br>Net salary = $$netSalary";
+
+}
+
+tax (500);
 
 
 ?>
