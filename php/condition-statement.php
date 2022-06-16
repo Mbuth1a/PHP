@@ -57,6 +57,19 @@ function tax ($salary)
 	echo "<br>Net salary = $$netSalary";
 
 }
+function factorial ($a) {
+
+	$fact = 1;
+
+	for ($i = 2 ; $i <= $a; $i++)
+
+		$fact *= $i;
+
+	echo "<br>Factorial of $a is : $fact";
+
+}
+
+factorial (5);
 
 tax (500);
 
